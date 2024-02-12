@@ -1,0 +1,18 @@
+@charset "UTF-8"; 
+
+body {
+    background-color: darkslategray;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+}
+h1 {
+    color: darkgoldenrod;
+    background-color: hotpink;
+}
+h2 {
+    color: whitesmoke;
+}
+p {
+    text-align: end;
+    color: rgb(255, 0, 0);
+}

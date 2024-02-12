@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML - Módulo 1</title>
+</head>
+<body>
+    <h1>O que foi ensinado no Módulo 1 sobre <abbr title="Hypertext Markup Language">HTML</abbr></h1>
+    <h2>Sobre a HTML</h2>
+    <p>Não se programa em HTML, pois ele é uma linguagem de marcação e não de programação, como o JavaScript. Além disso, é chamado "a HTML" e não "o HTML", até porque é uma LINGUAGEM, e linguagem tem pronome feminino. Por último,  HTML serve para dar conteúdo ao seu site e ela é trabalhada pelas tags.</p>
+    <h2>Código da HTML</h2>
+    <p>Para usar a HTML, no VS Code, digite "!" e aperte no Enter de seu teclado. Vai aparecer o seguinte código: </p>
+    <img src="Imagens/DOCTYPE.png" alt="Base do HTML">
+    <p>&lt;!DOCTYPE html&gt; &nbsp; nos diz que esta sendo utilizada a versão mais recente do HTML, o HTML5.</p>
+    <p>&lt;html lang="en"&gt; &nbsp; nos diz qual a linguagem que estará o site, nesse caso está em inglês, mas você pode colocar em português ao colocar entre as aspas "pt-br".</p>
+    <p>&lt;head&gt; &nbsp; é o cabeçalho da página, onde estão contidas as informações sobre o site.</p>
+    <p>Dentro da tag head temos outras três:</p>
+    <ul>
+        <li>&lt;meta charset="UTF-8"&gt; &nbsp; nos diz que o site vai suportar caracteres especiais, como a acentuação.</li>
+        <li>&lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt; &nbsp; nos diz que o site vai aparecer fulscreen, ou seja, vai cobrir toda a tela.</li>
+        <li>&lt;tittle&gt;Documento&lt;/tittle&gt; &nbsp; nos diz qual o nome que vai aparecer na aba do site, nesse caso é "Documento".</li>
+    </ul>
+    <p>Por último, temos o &lt;body&gt; &nbsp; aqui você coloca o que vai aparecer no seu site.</p>
+    <h2>Como funcionam as tags?</h2>
+    <p>As tags são como o HTML funciona, elas comandam tudo. Existem tags que tem uma abertura e fechamento, como a tag "tittle", onde o conteúdo é inserido entre as duas, perceba que a tag de fechamento tem uma barra antes. Enquanto tem outras que não tem uma tag de fechamento, como a tag "meta", onde o conteúdo vai dentro dela à direita do nome da tag.</p>
+    <img src="Imagens/tag_sem_link.png" alt="Foto da tag 'p'">
+    <p>Existem tags que além do conteúdo, elas tem algo a mais, como um link para ir para outro site.</p>
+    <img src="Imagens/tag_sem_link.png" alt="Foto da tag 'a'">
+    <p>Tome cuidado com as tags absoletas, elas são tags antigas, que ainda não foram removidas, mas não são mais usadas ou estão quase sendo excluídas.</p>
+    <h2>Parágrafos</h2>
+    <p>A primeira tag a ser aprendida é a tag &lt;p&gt;, que significa parágrafo e serve para você colocar o texto do seu site, como essa frase que você está lendo. Para colocar tags, basta você escrever o nome dela e apertar no Enter, o conteúdo, no caso da tag "p", vai entre as tags: &lt;p&gt;conteúdo&lt;/p&gt;. Dentro da tag "p", você pode utlizar mais de uma linha, não adianta dar Enter. Como no exemplo:</p>
+    <img src="Imagens/tag_paragrafo.png" alt="Tag Parágrafo com Enters">
+    <p>Veja o como fica:</p>
+    <img src="Imagens/resultado_tag_p.png" alt="Resultado da tag p">
+    <p>Para isso, precisamos usar uma outra tag: &lt;br&gt;</p>
+    <h3><em>Broken Line</em></h3>
+    <p>A tag &lt;br&gt; significa <em>broken line</em>, traduzindo para o português, quebra de linha. E ela é usada para nada mais, nada menos que quebrar as linhas. Utilizando o mesmo exemplo anterior: </p>
+    <img src="Imagens/tag_br.png" alt="Tag Parágrafo + br">
+    <p>Desta vez, trouxe resultado, pois as tags é quem mandam:</p>
+    <img src="Imagens/resultado_tag_br.png" alt="Resultado da tag br">
+    <p>Cuidado ao usar várias tags &lt;br&gt; em sequência, pois deixa o código confuso, em vez disso, configure pelo CSS, que você pode encontrar clicando no seu símbolo da página inicial.</p>
+    <h3>HTML Entities</h3>
+    <p>Quando você quer colocar alguns símbolos em seu site, deve-se usar códigos, por exemplo, até agora, para mostrar os sinais de "menor que" e "maior que", quando são representadas as tags foi utilizada a entity &lt (less than) seguida de um ponto e vírgula, e depois a entity &gt (greater than), também seguida de ponto e vírgula. O conteúdo fica entre elas. Mas por que não se pode apenas colocar os símbolos? Bom, eles têm outras funções, como no caso do "maior" e "menor que", que servem para abrir e fechar tags, e é isso que o computador vai entender.</p>
+    <p>Existem outros símbolos como estes, veja a tabela abaixo: </p>
+    <img src="Imagens/tabela_HTMLentities.png" alt="Tabela HTML Entities">
+    <h3>Emojis</h3>
+    <p>Você também pode colocar emojis no seu site. Basicamente, cada emoji tem um código Unicode, basta você descorbir qual é o do emoji que quer utilizar, para isso, pode pesquisar no site emojipedia.org, na sessão das informações técnicas. Cada emoji vem com um "prefixo" 'U+', ele não será necessário, em vez disso, substitua por &#x. A seguir, veja um exemplo de um código: </p>
+    <img src="Imagens/codigo_emoji.png" alt="Código-exemplo de um emoji">
+    <p>Agora oberserve o resultado: </p>
+    <img src="Imagens/emoji_espirrando.png" alt="Emoji espirrando">
+    <h3>Imagens</h3>
+    <p>Primeiramente, você deve saber que as algumas imagens possuem direitos autorais, ou seja, só algumas pessoas podem usar, logo, se você usar em site, podem te processar, portanto, use apenas imagens de domínio público, que podem ser encontradas no Google Imagens, com a configuração de "Licença Creative Commons". Dessa forma: </p>
+    <img src="Imagens/creative_commons.png" alt="Licenças Creative Commons">
+    <p>Também existem sites que você pode achar imagens com domínio público. Abaixo está listados alguns deles: </p>
+    <ul>
+        <li>UnSplash</li>
+        <li>Pexels</li>
+        <li>FreePik</li>
+        <li>Rawpixel</li>
+        <li>Pixabay</li>
+        <li>Libreshot</li>
+        <li>Wikimedia Commons</li>
+    </ul>
+    <h4>JPEG e PNG</h4>
+    <p>Existem muitos outros, mas esses dois são os principais formatos de imagem na criação de sites. </p>
+    <p>O <abbr title="Joint Photographics Experts Group">JPEG</abbr> é usado para gerar imagens fotográficas com tamanho reduzido. Os arquivos em JPG (em formato JPEG) tem a vantagem de ocuparem pouco espaço em disco, ótima para sites, que precisam ser leves e carregar rapidamente as imagens, mas cuidado ao configurá-las, para elas não ficarem borradas.</p> 
+    <p>O outro formato é o <abbr title="Portable Network Graphics">PNG</abbr>, que também é compactado, não tanto quanto o JPEG, mas se diferencia pela capacidade de configurar a opacidade (transparência) dos pixels. Abaixo temos uma imagem exemplo: </p>
+    <img src="Imagens/Imagem-exeploFormatos_de_imagem.png" alt="Imagem-exemplo sobre os dois formatos de imagem">
+    <h4>Tamanho das imagens</h4>
+</body>
+</html>
